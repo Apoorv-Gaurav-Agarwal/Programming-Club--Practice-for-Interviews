@@ -39,6 +39,7 @@ function(list, k){                                // list represent the starting
   return list1.value;
 }
 ```
+Recursion can also be used for finding the nth last element
 
 For the next follow up question, you might be asked to implement stack, queue or tree using linked list. Insertion and deletion of nodes also can be asked as follow-up question.
 Also, do search up turtle and hare algorithm for detection the loops in a linked list.
