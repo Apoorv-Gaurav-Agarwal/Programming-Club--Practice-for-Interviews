@@ -17,7 +17,7 @@ Store the starting cases, 5 and 25 here, when n is equal to 1 or 2. Now start tw
 
 The pseudo code for this brute force approach is as follows: 
 
-`Note: The solutions provided are pseudo codes. You will need to implement them using sytax of language of your choice`
+`Note: The solutions provided are pseudo codes. You will need to implement them using syntax of language of your choice`
 ```
 array indexing is 1 based
 function(n){
@@ -28,8 +28,8 @@ function(n){
   
   while(v<=n){
     if(i==j){
-      arr[v] = power(5,curr)   // introduce new power of 5 
-      curr++;   // to update maximum power of 5 next time 
+      curr++;   // to update maximum power of 5 next time
+      arr[v] = power(5,curr);   // introduce new power of 5  
       j=v;   // current maximum value of 
       v++;    // update v as new value in the series is encounter
       i=1;  // update i to so as to start again start the series from 1
