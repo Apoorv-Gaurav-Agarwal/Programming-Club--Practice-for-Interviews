@@ -7,7 +7,7 @@
 ##### Follow-up Question 2: What will change in your code if negative numbers are present.
 ##### Follow-up Question 3: Return the number of duplicates of the given number. Example- In the above stream, if number is 2, you have to return 3.
 
-##### Bonus: Given a bag consisting of 15 white marbles and 13 black marbles and a heap of infinite black and white marbles outside. Every time you need to pick 2 marbles. If both marbles are of same color, then put back a white marble and if the marbles are of different colors then put back a black marble in the bag. Answer the following:
+#### Bonus: Given a bag consisting of 15 white marbles and 13 black marbles and a heap of infinite black and white marbles outside. Every time you need to pick 2 marbles. If both marbles are of same color, then put back a white marble and if the marbles are of different colors then put back a black marble in the bag. Answer the following:
 ##### How many marble/s will be left in the bag when you cannot further continue this process?
 ##### What will the color of only marble left in the bag when the process cannot be continued further?
 ---
@@ -19,7 +19,7 @@ by modifying it a little. Let low be pointing to 1st element and high pointing t
 -> If it is greater than high index element then copy high index in low index and double the high index.
 -> If it is smaller, then apply binary search on high and low indices found.
 ```
-Hence, for finding the correct range to apply binary search, we will take O(log n) time and for finding the element, we will take O(log n). Our overall complaxity will be 2*O(log n) or simply O(log n). The pseudo code for the following: 
+Hence, for finding the correct range to apply binary search, we will take O(log n) time and for finding the element, we will take O(log n). Our overall complexity will be 2*O(log n) or simply O(log n). The pseudo code for the following: 
 ```
 function search(int arr[], int tofind){
   int l = 0, h = 1; 
