@@ -28,7 +28,7 @@ function(char[] str){
 			curr=1;
 		}
    }
-   if(curr > max)
+   if(curr > max) // in case all characters are same
    {
    		max = curr;
 		max_char = cur_char;
