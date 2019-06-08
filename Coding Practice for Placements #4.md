@@ -13,18 +13,27 @@ The efficient approach will be to maintain pointers while moving through the str
 
 ```
 function(char[] str){
-  int curr=0, max=0, i;
-  char max_char='';
+  int curr=1, max=0, i;
+  char max_char='',cur_char='';
   for(i=0;i<str.length-1;i++){
-			if(str[i]==str[i+1])
-        curr++;
-			else{
-				if(max<curr){
-          max=curr;
-          max_char=str[i];
-          }
-				curr=1;
-			}
+		if(str[i]==str[i+1]){
+			curr++;
+			cur_char = str[i];
 		}
-  }
+		else{
+			if(max<curr){
+				max=curr;
+				max_char=str[i];
+			}
+			curr=1;
+		}
+   }
+   if(curr > max)
+   {
+   		max = curr;
+		max_char = cur_char;
+   }
+   
+}
+  
 ```
