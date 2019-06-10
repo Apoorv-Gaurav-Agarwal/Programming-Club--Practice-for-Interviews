@@ -3,9 +3,9 @@
 
 ##### Follow-up Question 1: Do this in constant space.
 ---
-This problem is quite simple were it not forthe follow up question. Normally, you can do this by counting the frequency of each element and if it is greater than 2, printing it. But this apprach requires extra O(n) space. 
+This problem is quite simple were it not for the follow up question. Normally, you can do this by counting the frequency of each element and if it is >= 2, printing it. But this apprach requires extra O(n) space. 
 
-Since we were given the range, we can avoid the extra space using it. We can use index of an array to represent the nummbers and mark the element as negative whose index is the element present. The algorithm is as follows:
+Since we were given the range, we can avoid the extra space using it. We can use index of an array to represent the numbers and mark the element as negative whose index is the element present. The algorithm is as follows:
 ```
 Itereate the array and check for sign of A[abs(A[i])] ;
   if positive then
