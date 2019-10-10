@@ -46,5 +46,5 @@ The answer to the puzzle is that only one marble will be left at the end which w
 
 Since marbles can only be taken out in pairs and you started off with an odd number of black. There is always going to be one black left over that you'll keep putting back in the box until it's left on its own.
 
-If you still need help, suppose you take out all the black marbles first in pairs. Bag will contain 27 white and 1 black marble. Now white + black combination
+If you still need help, suppose you take out all the black marbles first in pairs. Bag will contain 21 white and 1 black marble. Now white + black combination
 will remove the white marble and white + white combination will also remove the white marble. You won't be able to remove black marble. Same will happen if you remove all white marbles first.
